@@ -11,12 +11,12 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.ViewModelProvider
 import com.example.androidapp.ui.theme.AndroidAppTheme
-import com.example.composedemo.biblioteka.Biblioteka
-import com.example.composedemo.libraryintervali.LibraryIntervali
-import com.example.composedemo.librarytrezvucha.LibraryTrezvucha
-import com.example.composedemo.lybraryseptakkordi.LybrarySeptakkordi
-import com.example.composedemo.test.Test
-import com.example.composedemo.tests.Tests
+import com.example.androidapp.biblioteka.Biblioteka
+import com.example.androidapp.libraryintervali.LibraryIntervali
+import com.example.androidapp.librarytrezvucha.LibraryTrezvucha
+import com.example.androidapp.lybraryseptakkordi.LybrarySeptakkordi
+import com.example.androidapp.test.Test
+import com.example.androidapp.tests.Tests
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
