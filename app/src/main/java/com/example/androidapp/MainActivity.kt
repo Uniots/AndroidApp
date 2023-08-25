@@ -15,6 +15,8 @@ import com.example.composedemo.biblioteka.Biblioteka
 import com.example.composedemo.libraryintervali.LibraryIntervali
 import com.example.composedemo.librarytrezvucha.LibraryTrezvucha
 import com.example.composedemo.lybraryseptakkordi.LybrarySeptakkordi
+import com.example.composedemo.test.Test
+import com.example.composedemo.tests.Tests
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,15 +44,24 @@ fun Start( ViewModel : MainViewModel){
     if (ScrNum.value == 0) {
         Biblioteka(
             onBibliotekaTapped = {},
-            onTestiTapped = {},
+            onTestiTapped = {ViewModel.setScreenNum(4)},
             onSeptakkordiTapped = {ViewModel.setScreenNum(1)},
             onTrezvuchiaTapped = {ViewModel.setScreenNum(2)},
             onIntervaliTapped = {ViewModel.setScreenNum(3)})
     } else if (ScrNum.value == 1) {
-        LybrarySeptakkordi()
+        LybrarySeptakkordi(onButtonbackTapped = {ViewModel.setScreenNum(0)})
     } else if (ScrNum.value == 2) {
-        LibraryTrezvucha()
+        LibraryTrezvucha(onButtonendTapped = {ViewModel.setScreenNum(0)})
     } else if (ScrNum.value == 3) {
-        LibraryIntervali()
+        LibraryIntervali(onBattonbackTapped = {ViewModel.setScreenNum(0)})
+    } else if (ScrNum.value == 4){
+        Tests(
+            onLibrarymenuTapped = {ViewModel.setScreenNum(0)},
+            onTestsmenuTapped = {},
+            onSeptakkorditestTapped = {ViewModel.setScreenNum(5)},
+            onTrezvuchiatestTapped = {ViewModel.setScreenNum(5)},
+            onIntervalitestTapped = {ViewModel.setScreenNum(5)})
+    } else if (ScrNum.value == 5){
+        Test(onButtonBackTapped = {ViewModel.setScreenNum(4)})
     }
 }

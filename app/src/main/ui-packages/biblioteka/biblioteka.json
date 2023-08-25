@@ -1,0 +1,538 @@
+{
+  "name": "biblioteka",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KA0yY6JG1u7BdiIS0wzDrn",
+    "node": "178:2",
+    "version": "4053896270",
+    "component-id": "4f560a71bc80742e96a53cf91ccf95d7e732bb0f"
+  },
+  "default": "Biblioteka",
+  "documentation": "Bible",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "BibliotekaMenu"
+      },
+      {
+        "type": "group",
+        "id": "Testi"
+      },
+      {
+        "type": "text",
+        "id": "Biblioteka1"
+      },
+      {
+        "type": "group",
+        "id": "Septakkordi"
+      },
+      {
+        "type": "group",
+        "id": "Trezvuchia"
+      },
+      {
+        "type": "group",
+        "id": "Intervali"
+      },
+      {
+        "type": "vector",
+        "id": "LibraryRectMenu"
+      },
+      {
+        "type": "image",
+        "id": "LibraryLogo"
+      },
+      {
+        "type": "vector",
+        "id": "TestRectMenu"
+      },
+      {
+        "type": "image",
+        "id": "TestLogo"
+      },
+      {
+        "type": "vector",
+        "id": "SeptRect"
+      },
+      {
+        "type": "text",
+        "id": "SeptakkordiText"
+      },
+      {
+        "type": "vector",
+        "id": "TrezvRect"
+      },
+      {
+        "type": "text",
+        "id": "TrezvuchiaText"
+      },
+      {
+        "type": "vector",
+        "id": "IntRect"
+      },
+      {
+        "type": "text",
+        "id": "IntervaliText"
+      }
+    ],
+    "modes": {
+      "Biblioteka": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "BibliotekaMenu",
+              "Testi",
+              "Biblioteka1",
+              "Septakkordi",
+              "Trezvuchia",
+              "Intervali"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "BibliotekaMenu",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "566.0"
+              }
+            },
+            "tap-handler": "$on Biblioteka tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "180.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "LibraryRectMenu",
+              "LibraryLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Testi",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "180.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "566.0"
+              }
+            },
+            "tap-handler": "$on Testi tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "180.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "TestRectMenu",
+              "TestLogo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Biblioteka1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Библиотека",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "32.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "Septakkordi",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "205.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "116.0"
+              }
+            },
+            "tap-handler": "$on Septakkordi tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "SeptRect",
+              "SeptakkordiText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Trezvuchia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "25.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "116.0"
+              }
+            },
+            "tap-handler": "$on Trezvuchia tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "TrezvRect",
+              "TrezvuchiaText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Intervali",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "115.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "309.0"
+              }
+            },
+            "tap-handler": "$on Intervali tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IntRect",
+              "IntervaliText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "LibraryRectMenu",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "180.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.0"
+              }
+            },
+            "vector-content": "library_rect_menu.svg"
+          },
+          {
+            "id": "LibraryLogo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "53.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.0"
+              }
+            },
+            "image-content": "library_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "TestRectMenu",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "test_rect_menu.svg"
+          },
+          {
+            "id": "TestLogo",
+            "margin": {
+              "left": "58.0",
+              "right": "58.136993408203125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "test_logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "SeptRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              }
+            },
+            "vector-content": "sept_rect.svg"
+          },
+          {
+            "id": "SeptakkordiText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Септаккорды",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "11.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "TrezvRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              }
+            },
+            "vector-content": "trezv_rect.svg"
+          },
+          {
+            "id": "TrezvuchiaText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Трезвучия",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "IntRect",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "int_rect.svg"
+          },
+          {
+            "id": "IntervaliText",
+            "margin": {
+              "top": "10.0",
+              "bottom": "100.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Интервалы",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Biblioteka tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Testi tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Septakkordi tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Trezvuchia tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Intervali tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Biblioteka",
+      "size": {
+        "width": 360.0,
+        "height": 640.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
