@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ComposeDemo"
+rootProject.name = "AndroidApp"
 include(":app")
