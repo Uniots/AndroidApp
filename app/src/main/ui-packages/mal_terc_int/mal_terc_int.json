@@ -1,0 +1,382 @@
+{
+  "name": "mal_terc_int",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "KA0yY6JG1u7BdiIS0wzDrn",
+    "node": "232:236",
+    "version": "4060952174",
+    "component-id": "65f066ccc446fdb749208d996119d6c80d65811d"
+  },
+  "default": "MalTercInt",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "MalTercHead"
+      },
+      {
+        "type": "group",
+        "id": "ButtonBack"
+      },
+      {
+        "type": "text",
+        "id": "TextMalTerc"
+      },
+      {
+        "type": "group",
+        "id": "ListenMalTerc"
+      },
+      {
+        "type": "image",
+        "id": "image 1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "vector",
+        "id": "Line 3"
+      },
+      {
+        "type": "vector",
+        "id": "Line 4"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "image",
+        "id": "pngwing 3"
+      }
+    ],
+    "modes": {
+      "MalTercInt": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "MalTercHead",
+              "ButtonBack",
+              "TextMalTerc",
+              "ListenMalTerc",
+              "image 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "MalTercHead",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Малая терция",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "30.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "ButtonBack",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "12.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "53.0"
+              }
+            },
+            "tap-handler": "$on ButtonBack tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 1",
+              "Group 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "TextMalTerc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "123.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "268.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "ListenMalTerc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "230.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "452.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 2",
+              "pngwing 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "image 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "439.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "215.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "113.0"
+              }
+            },
+            "image-content": "image_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "53.0"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Group 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.2294921875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.3961181640625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Line 3",
+              "Line 4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Line 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-3.6376577057751547"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.78208405160035"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.83948516845703"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_3.svg"
+          },
+          {
+            "id": "Line 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-3.6793447174939047"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "25.614079888829338"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.83948516845703"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_4.svg"
+          },
+          {
+            "id": "Ellipse 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "pngwing 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "6.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              }
+            },
+            "image-content": "pngwing_3.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on ButtonBack tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MalTercInt",
+      "size": {
+        "width": 360.0,
+        "height": 640.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

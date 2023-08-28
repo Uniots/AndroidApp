@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "KA0yY6JG1u7BdiIS0wzDrn",
     "node": "189:5",
-    "version": "4053896270",
+    "version": "4060952174",
     "component-id": "f70ce051bb873bf21e86308fcf0a0cf9d29cdd5c"
   },
   "default": "LibraryTrezvucha",
@@ -113,11 +113,11 @@
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "9.0"
+                "offset": "12.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "40.0"
+                "offset": "53.0"
               }
             },
             "tap-handler": "$on Buttonend tapped",

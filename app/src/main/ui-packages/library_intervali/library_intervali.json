@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "KA0yY6JG1u7BdiIS0wzDrn",
     "node": "189:4",
-    "version": "4053896270",
+    "version": "4064372871",
     "component-id": "a96ad05023a45e4de6963a9fd6e4456bb88746a4"
   },
   "default": "LibraryIntervali",
@@ -23,19 +23,59 @@
       },
       {
         "type": "group",
-        "id": "BattonBack"
-      },
-      {
-        "type": "text",
-        "id": "TextInt"
+        "id": "Battonback"
       },
       {
         "type": "group",
-        "id": "ListenInt"
+        "id": "Prima"
       },
       {
-        "type": "image",
-        "id": "image 1"
+        "type": "group",
+        "id": "Malayasec"
+      },
+      {
+        "type": "group",
+        "id": "Bolsec"
+      },
+      {
+        "type": "group",
+        "id": "Malterc"
+      },
+      {
+        "type": "group",
+        "id": "Bolterc"
+      },
+      {
+        "type": "group",
+        "id": "Kvarta"
+      },
+      {
+        "type": "group",
+        "id": "Triton"
+      },
+      {
+        "type": "group",
+        "id": "Kvinta"
+      },
+      {
+        "type": "group",
+        "id": "Malsexta"
+      },
+      {
+        "type": "group",
+        "id": "Bolsexta"
+      },
+      {
+        "type": "group",
+        "id": "Malsept"
+      },
+      {
+        "type": "group",
+        "id": "Bolsept"
+      },
+      {
+        "type": "group",
+        "id": "Oktava"
       },
       {
         "type": "vector",
@@ -55,11 +95,107 @@
       },
       {
         "type": "vector",
-        "id": "Ellipse 2"
+        "id": "ch1"
       },
       {
-        "type": "image",
-        "id": "pngwing 3"
+        "type": "text",
+        "id": "PrimaText"
+      },
+      {
+        "type": "vector",
+        "id": "m2"
+      },
+      {
+        "type": "text",
+        "id": "MsecText"
+      },
+      {
+        "type": "vector",
+        "id": "b2"
+      },
+      {
+        "type": "text",
+        "id": "BolsecText"
+      },
+      {
+        "type": "vector",
+        "id": "m3"
+      },
+      {
+        "type": "text",
+        "id": "MaltercText"
+      },
+      {
+        "type": "vector",
+        "id": "b3"
+      },
+      {
+        "type": "text",
+        "id": "BolTercTex"
+      },
+      {
+        "type": "vector",
+        "id": "ch4"
+      },
+      {
+        "type": "text",
+        "id": "KvartaText"
+      },
+      {
+        "type": "vector",
+        "id": "triton"
+      },
+      {
+        "type": "text",
+        "id": "TritonText"
+      },
+      {
+        "type": "vector",
+        "id": "ch5"
+      },
+      {
+        "type": "text",
+        "id": "KvintaText"
+      },
+      {
+        "type": "vector",
+        "id": "m6"
+      },
+      {
+        "type": "text",
+        "id": "MalSextaText"
+      },
+      {
+        "type": "vector",
+        "id": "b6"
+      },
+      {
+        "type": "text",
+        "id": "BolSextaText"
+      },
+      {
+        "type": "vector",
+        "id": "m7"
+      },
+      {
+        "type": "text",
+        "id": "MalSeptText"
+      },
+      {
+        "type": "vector",
+        "id": "b7"
+      },
+      {
+        "type": "text",
+        "id": "BolSepText"
+      },
+      {
+        "type": "vector",
+        "id": "ch8"
+      },
+      {
+        "type": "text",
+        "id": "OktText"
       }
     ],
     "modes": {
@@ -70,10 +206,20 @@
             "is-structured": "false",
             "children": [
               "IntHed",
-              "BattonBack",
-              "TextInt",
-              "ListenInt",
-              "image 1"
+              "Battonback",
+              "Prima",
+              "Malayasec",
+              "Bolsec",
+              "Malterc",
+              "Bolterc",
+              "Kvarta",
+              "Triton",
+              "Kvinta",
+              "Malsexta",
+              "Bolsexta",
+              "Malsept",
+              "Bolsept",
+              "Oktava"
             ],
             "background-color": {
               "alpha": "1.0",
@@ -109,15 +255,15 @@
             "typeface": "Hachi Maru Pop"
           },
           {
-            "id": "BattonBack",
+            "id": "Battonback",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "9.0"
+                "offset": "12.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "40.0"
+                "offset": "53.0"
               }
             },
             "tap-handler": "$on Battonback tapped",
@@ -139,93 +285,394 @@
             "clip-content": "false"
           },
           {
-            "id": "TextInt",
+            "id": "Prima",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "0.0"
+                "offset": "33.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "123.0"
+                "offset": "120.0"
               }
             },
+            "tap-handler": "$on Prima tapped",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "360.0"
+                "value": "69.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "268.0"
-              }
-            },
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "0.0"
-            },
-            "text-content": "Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст",
-            "overflow": "visible",
-            "max-lines": "-1",
-            "text-size": "20.0",
-            "line-height": "1.4479999542236328",
-            "typeface": "Hachi Maru Pop"
-          },
-          {
-            "id": "ListenInt",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "230.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "452.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "87.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "87.0"
+                "value": "69.0"
               }
             },
             "is-structured": "false",
             "children": [
-              "Ellipse 2",
-              "pngwing 3"
+              "ch1",
+              "PrimaText"
             ],
             "clip-content": "false"
           },
           {
-            "id": "image 1",
+            "id": "Malayasec",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "15.0"
+                "offset": "143.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "439.0"
+                "offset": "117.0"
               }
             },
+            "tap-handler": "$on MalayaSec tapped",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "215.0"
+                "value": "69.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "113.0"
+                "value": "72.0"
               }
             },
-            "image-content": "image_1.png",
-            "scale": "cover"
+            "is-structured": "false",
+            "children": [
+              "m2",
+              "MsecText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bolsec",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "253.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "120.0"
+              }
+            },
+            "tap-handler": "$on BolSec tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "b2",
+              "BolsecText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Malterc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "33.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "222.0"
+              }
+            },
+            "tap-handler": "$on MalTerc tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "m3",
+              "MaltercText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bolterc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "222.0"
+              }
+            },
+            "tap-handler": "$on BolTerc tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "b3",
+              "BolTercTex"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Kvarta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "253.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "222.0"
+              }
+            },
+            "tap-handler": "$on Kvarta tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ch4",
+              "KvartaText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Triton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "33.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "325.0"
+              }
+            },
+            "tap-handler": "$on Triton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "triton",
+              "TritonText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Kvinta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "324.0"
+              }
+            },
+            "tap-handler": "$on Kvinta tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "70.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ch5",
+              "KvintaText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Malsexta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "253.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "325.0"
+              }
+            },
+            "tap-handler": "$on MalSexta tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "m6",
+              "MalSextaText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bolsexta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "33.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "427.0"
+              }
+            },
+            "tap-handler": "$on BolSexta tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "b6",
+              "BolSextaText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Malsept",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "427.0"
+              }
+            },
+            "tap-handler": "$on MalSept tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "m7",
+              "MalSeptText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bolsept",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "253.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "427.0"
+              }
+            },
+            "tap-handler": "$on BolSept tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "b7",
+              "BolSepText"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Oktava",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "145.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "529.0"
+              }
+            },
+            "tap-handler": "$on Oktava tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ch8",
+              "OktText"
+            ],
+            "clip-content": "false"
           },
           {
             "id": "Ellipse 1",
@@ -319,43 +766,654 @@
             "vector-content": "line_4.svg"
           },
           {
-            "id": "Ellipse 2",
+            "id": "ch1",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "87.0"
+                "value": "69.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "87.0"
+                "value": "69.0"
               }
             },
-            "vector-content": "ellipse_2.svg"
+            "vector-content": "ch1.svg"
           },
           {
-            "id": "pngwing 3",
+            "id": "PrimaText",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
-                "offset": "6.0"
+                "offset": "0.0"
               },
               "vertical": {
                 "attachment": "start",
-                "offset": "6.0"
+                "offset": "16.0"
               }
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "75.0"
+                "value": "69.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "75.0"
+                "value": "26.0"
               }
             },
-            "image-content": "pngwing_3.png",
-            "scale": "cover"
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Прима",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "13.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "m2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "m2.svg"
+          },
+          {
+            "id": "MsecText",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Малая секунда",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "b2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "b2.svg"
+          },
+          {
+            "id": "BolsecText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Большая секунда",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "m3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "m3.svg"
+          },
+          {
+            "id": "MaltercText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Малая терция",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "b3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "b3.svg"
+          },
+          {
+            "id": "BolTercTex",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "18.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Большая терция",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "ch4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "ch4.svg"
+          },
+          {
+            "id": "KvartaText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Чистая кварта",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "triton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "triton.svg"
+          },
+          {
+            "id": "TritonText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Тритон",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "ch5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "ch5.svg"
+          },
+          {
+            "id": "KvintaText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Чистая квинта",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "m6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "m6.svg"
+          },
+          {
+            "id": "MalSextaText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "22.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Малая секста",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "b6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "b6.svg"
+          },
+          {
+            "id": "BolSextaText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Большая секста",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "m7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "m7.svg"
+          },
+          {
+            "id": "MalSeptText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Малая септима",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "b7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "b7.svg"
+          },
+          {
+            "id": "BolSepText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Большая септима",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
+          },
+          {
+            "id": "ch8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "69.0"
+              }
+            },
+            "vector-content": "ch8.svg"
+          },
+          {
+            "id": "OktText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Октава",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Hachi Maru Pop"
           }
         ]
       }
@@ -363,6 +1421,71 @@
   },
   "parameters": {
     "on Battonback tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Prima tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on MalayaSec tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on BolSec tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on MalTerc tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on BolTerc tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Kvarta tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Triton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Kvinta tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on MalSexta tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on BolSexta tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on MalSept tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on BolSept tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Oktava tapped": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
